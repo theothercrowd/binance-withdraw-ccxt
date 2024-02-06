@@ -9,5 +9,8 @@
 time.sleep можешь убрать, но с ним более безопасно от будущего бритья.
 кол-во монет для вывода меняешь в переменной amount_to_withdrawal. можешь выводить не рандомное кол-во, но это хорошая практика для попадания под бритье в будущем.
 
-Канал : https://t.me/hodlmodeth. 
-Чат для вопросов : https://t.me/code_hodlmodeth.
+Апдейт от оригинала:
+
+- added unix_to_strtime to show next withdrawal time
+- added logging to binance_withdawal.log
+- added iteration exit on the last wallet
